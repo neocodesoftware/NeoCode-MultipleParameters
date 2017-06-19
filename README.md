@@ -14,12 +14,12 @@ data structure - encode ( encode ( encode ( value1 ), value2 ), value3 )
 
 so left hand is always encoded and right hand is decoded
 
-# highlevel problem
+# Highlevel problem
 
 server scripts run in their scope
 they don't have access to variables
 
-# actual problem
+# Actual problem
 
 client needs to send email from filemaker client desktop that is outside lan
 
@@ -27,11 +27,11 @@ only computers on lan have access to to smtp server
 
 solutions use filemaker psos to send server side email
 
-# implementation problem
+# Implementation problem
 
 how to send mail envelope fields - to, from, subject, body, user, pass to psos
 
-# new solution
+# New solution
 
 make a global repeating field for array storage
 
