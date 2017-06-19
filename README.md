@@ -7,6 +7,8 @@ for pre filemaker 16 solutions that don't have json - i built this to escape tex
 # File
 sample solution - singe script that demonstrates packing and unpacking algorithm
 
+security - user Admin / password [empty]
+
 # Format
 data structure - encode ( encode ( encode ( value1 ), value2 ), value3 )
 
